@@ -1,0 +1,75 @@
+.indexJumbotron {
+    background: url('https://images.unsplash.com/photo-1494112142672-801c71472ba5?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop='); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: white;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.2),
+				 0px 6px 8px rgba(0,0,0,0.1),
+				 0px 10px 15px rgba(0,0,0,0.1);
+}
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 40px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 50px;
+  background-color: #f5f5f5;
+}
+
+
+.footer .container {
+    padding-top: 15px;
+}
+
+
+.thumbnail img {
+    width: 100%;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.indexThumbnail img {
+    height: 160px;
+}
+
+
+.thumbnail {
+    /* get rid of image padding */
+    padding: 0;
+    border: none;
+    box-shadow: 0px 2px 3px rgba(0,0,0,0.2),
+				 0px 6px 8px rgba(0,0,0,0.1),
+				 0px 10px 15px rgba(0,0,0,0.1);
+	background-color: #FCFCFF;
+}
+
+
+.thumbnail .caption-full {
+    padding: 9px;
+}
+
+.delete-form {
+    display: inline;
+}
+
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
