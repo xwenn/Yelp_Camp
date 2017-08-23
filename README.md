@@ -4,5 +4,6 @@ Project description:
   * User authentication and permission for different operations
   * Embedded Google Map to display location of each campground
   * Search function with live view using AJAX
-  * Social share APIs including Facebook, Twitter and LinkedIn 
+  * Social share APIs including Facebook, Twitter and LinkedIn
+  
 <br />Techniques used: HTML, CSS, JavaScript, Node.js, MongoDB
