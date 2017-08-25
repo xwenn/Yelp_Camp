@@ -6,4 +6,4 @@
   * Search function with live view using AJAX
   * Social share APIs including Facebook, Twitter and LinkedIn
   
-  **Techniques used**: HTML, CSS, JavaScript, Node.js, MongoDB
+  **Techniques used**: HTML, CSS, JavaScript, MongoDB, Express, Node.js
